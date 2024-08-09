@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    color: green;
+}
+
+#para1{
+    color: red;
+}
+
+.headings{
+    color: blue;
+}
+
+p[name='heading']{
+    color: orange;
+}
+
+#h{
+font-size: 500;
+}
