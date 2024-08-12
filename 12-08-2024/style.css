@@ -1,0 +1,31 @@
+/* Descendent Selector */
+.parent .para {
+    color: blue;
+}
+
+.parent button {
+    background-color: gray;
+}
+
+/* Immediate Child Selector */
+.parent>.para>button {
+    background-color: blue;
+}
+
+.parent.para button {
+    background-color: green;
+}
+
+/* General Sibling */
+.list li~li {
+    color: green;
+}
+
+/* Immediate Sibling */
+ul[name="list"]>h4+li+li {
+    color: red;
+}
+
+h1 {
+    color: pink;
+}
