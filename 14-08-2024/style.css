@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    /* border: 1px solid yellow; */
+}
+
+.container {
+    width: 500px;
+    border: 1px solid red;
+    padding: 20px;
+    margin: auto;
+}
+
+.box {
+    padding: 25px;
+    border: 1px solid blue;
+    margin: 20px;
+}
+
+.item1 {
+    background-color: gray;
+    position: absolute;
+    left: 5px;
+}
+
+.item2 {
+    background-color: green;
+    position: absolute;
+    left: 100px;
+}
+
+.item3 {
+    background-color: violet;
+    position: absolute;
+}
+
+nav {
+    text-align: right;
+    position: sticky;
+    top: 5px;
+    left: 5px;
+    bottom: 5px;
+    right: 5px;
+}
+
+.stick {
+    padding: 5x;
+    font-size: 50px;
+    background-color: gray;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+}
