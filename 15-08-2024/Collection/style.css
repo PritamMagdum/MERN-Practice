@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box>img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.box {
+    display: inline-block;
+    width: 49vw;
+    height: 49vh;
+    border: 1px solid blue;
+    border-radius: 10px;
+}
+
+span {
+    font-size: 40px;
+}
