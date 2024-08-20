@@ -1,0 +1,183 @@
+.box {
+    height: 200px;
+    width: 200px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    border: 1px solid gray;
+    animation-name: change-radius;
+    animation-duration: 5s;
+    font-size: 25px;
+    color: white;
+    animation-fill-mode: both;
+}
+
+.progress {
+    height: fit-content;
+    font-size: 100px;
+    /* width: 20px; */
+    /* border: 1px solid blue; */
+    animation-duration: 8s;
+    animation-name: progress-bar;
+    animation-fill-mode: both;
+    margin: 50px;
+}
+
+@keyframes progress-bar {
+    10% {
+        width: 20px;
+        background-color: rgb(121, 121, 199);
+    }
+
+    25% {
+        width: 80px;
+        background-color: rgb(110, 110, 190);
+    }
+
+    40% {
+        width: 150px;
+        background-color: rgb(98, 98, 180);
+    }
+
+    60% {
+        width: 180px;
+        background-color: rgb(83, 83, 180);
+    }
+
+    80% {
+        width: 300px;
+        background-color: rgb(56, 56, 184);
+    }
+
+    100% {
+        width: fit-content;
+        background-color: rgb(22, 22, 211);
+    }
+}
+
+@keyframes change-radius {
+    0% {
+        border-radius: 0px;
+        background-color: rgb(184, 168, 168);
+        content: "0%";
+    }
+
+    50% {
+        border-radius: 50px 50px 0 0;
+        background-color: gray;
+        content: "50%";
+    }
+
+    75% {
+        border-radius: 50px 50px 50px 0;
+        background-color: green;
+        content: "75%";
+    }
+
+    100% {
+        border-radius: 50px;
+        background-color: blue;
+        content: "100%";
+    }
+}
+
+.boxes {
+    display: inline-block;
+}
+
+.boxes {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.box1 {
+    border: 1px solid red;
+    animation-delay: 1s;
+    animation-duration: 2s;
+    animation-name: box1;
+    animation-fill-mode: both;
+}
+
+@keyframes box1 {
+    from {}
+
+    to {
+        height: 500px;
+        width: 500px;
+        background-color: red;
+    }
+}
+
+.box2 {
+    border: 1px solid blue;
+    animation-delay: 3s;
+    animation-duration: 2s;
+    animation-name: box2;
+    animation-fill-mode: both;
+}
+
+@keyframes box2 {
+    from {}
+
+    to {
+        height: 400px;
+        width: 400px;
+        background-color: blue;
+    }
+}
+
+.box3 {
+    border: 1px solid green;
+    animation-delay: 5s;
+    animation-duration: 2s;
+    animation-name: box3;
+    animation-fill-mode: both;
+}
+
+@keyframes box3 {
+    from {}
+
+    to {
+        height: 300px;
+        width: 300px;
+        background-color: green;
+    }
+}
+
+.box4 {
+    border: 1px solid yellow;
+    animation-delay: 7s;
+    animation-duration: 2s;
+    animation-name: box4;
+    animation-fill-mode: both;
+}
+
+@keyframes box4 {
+    from {}
+
+    to {
+        height: 200px;
+        width: 200px;
+        background-color: yellow;
+    }
+}
+
+.box5 {
+    border: 1px solid orange;
+    animation-delay: 9s;
+    animation-duration: 2s;
+    animation-name: box5;
+    animation-fill-mode: both;
+}
+
+@keyframes box5 {
+    from {}
+
+    to {
+        height: 100px;
+        width: 100px;
+        background-color: orange;
+    }
+}
