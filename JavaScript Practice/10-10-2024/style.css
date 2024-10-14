@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    align-content: space-evenly;
+    gap: 50px;
+}
+
+#div1 {
+    height: 300px;
+    border: 1px solid black;
+    width: 300px;
+}
+
+#div2 {
+    height: 300px;
+    border: 1px solid black;
+    width: 300px;
+}
+
+#div3 {
+    height: 300px;
+    border: 1px solid black;
+    width: 300px;
+}
+
+/* div {
+    height: 500px;
+    width: 500px;
+    border: 1px solid black;
+} */

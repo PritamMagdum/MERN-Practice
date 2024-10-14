@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navigationBar {
+    display: flex;
+}
+
+.navItems li {
+    display: flex;
+    justify-content: center;
+}
+
+.navigation ul {
+    justify-content: space-between;
+}
+
+.navigation ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.backDropSection {
+    background-image: url(./images/Backdrop.png);
+    height: 69vh;
+    width: 100vw;
+    background-position: center;
+
+
+}
