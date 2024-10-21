@@ -1,0 +1,61 @@
+.Navbar ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-size: larger;
+  background-color: gray;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+}
+
+.increment {
+  height: 50px;
+  width: 50px;
+  border: 2px solid green;
+  border-radius: 10px;
+  transition: all;
+  transition-duration: 30ms;
+  cursor: pointer;
+  color: green;
+  font-size: 20px;
+}
+.increment:hover {
+  background-color: green;
+  color: white;
+}
+
+.decrement {
+  height: 50px;
+  width: 50px;
+  border: 2px solid red;
+  border-radius: 10px;
+  transition: all;
+  transition-duration: 30ms;
+  cursor: pointer;
+  color: red;
+  font-size: 20px;
+}
+.decrement:hover {
+  background-color: red;
+  color: white;
+}
+
+.reset {
+  height: 50px;
+  width: 50px;
+  border: 2px solid blue;
+  border-radius: 10px;
+  transition: all;
+  transition-duration: 30ms;
+  cursor: pointer;
+  color: blue;
+  font-size: 20px;
+}
+.reset:hover {
+  background-color: blue;
+  color: white;
+}
+
+/*  */
