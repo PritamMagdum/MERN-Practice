@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#emojiContainer {
+  border: 1px solid black;
+  height: 60px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 50%;
+}
+#emoji {
+  font-size: 40px;
+}
+form {
+  border: 2px solid grey;
+  box-shadow: 0px 0px 10px;
+  border-radius: 10px;
+  height: 400px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+#showPass {
+  height: 30px;
+  width: 200px;
+  cursor: pointer;
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  font-size: 16px;
+}
+#showPass:hover {
+  background-color: white;
+  border: 2px solid blue;
+  color: blue;
+}
+#submitBtn {
+  height: 30px;
+  width: 130px;
+  cursor: pointer;
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  font-size: 16px;
+}
+#submitBtn:hover {
+  background-color: white;
+  border: 2px solid green;
+  color: green;
+}
+#cancelBtn {
+  height: 30px;
+  width: 130px;
+  cursor: pointer;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  font-size: 16px;
+}
+#cancelBtn:hover {
+  background-color: white;
+  border: 2px solid red;
+  color: red;
+}
+form input {
+  height: 30px;
+  width: 300px;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+/* form validatino */
+.valid {
+  border: 2px solid green;
+}
+
+.not_valid {
+  border: 2px solid red;
+}
+
+#usernameError {
+  color: red;
+}
+#passwordError {
+  color: red;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="" id="">
+      <div id="emojiContainer">
+        <article id="emoji">😎</article>
+      </div>
+      <div>
+        <input type="email" id="username" placeholder="Enter your username" />
+        <br />
+        <small id="usernameError"></small>
+      </div>
+      <div>
+        <input
+          type="password"
+          id="password"
+          placeholder="Enter your password"
+        />
+        <br />
+        <small id="passwordError"></small>
+      </div>
+      <div>
+        <button id="showPass">Show Password</button>
+      </div>
+      <div id="btnContainer">
+        <button id="submitBtn">Submit</button>
+        <button id="cancelBtn">Cancel</button>
+      </div>
+    </form>
+    <script src="app.js"></script>
+  </body>
+</html>
