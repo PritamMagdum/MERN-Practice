@@ -19,5 +19,3 @@ if (a > b && a > c) {
 } else {
   console.log("C is greater");
 }
-
-console.log("");
