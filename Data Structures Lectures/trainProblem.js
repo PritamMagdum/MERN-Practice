@@ -20,22 +20,6 @@ if (seatNumber > 0 && seatNumber <= 80) {
   console.log("Please enter valid Seat Number");
 }
 
-// * Given the month number you need to print how many days are present in given month
-
-let month = 4;
-
-if (month >= 1 && month <= 12) {
-  if (month == 1 || 3 || 5 || 7 || 8 || 10 || 12) {
-    console.log("month contains 31 days");
-  } else if (month == 4 || 6 || 9 || 11) {
-    console.log("month contains 30 days");
-  } else {
-    console.log("month contains 28 or 29 days it depends on leap year");
-  }
-} else {
-  console.log("month is not valid");
-}
-
 {
   let arr = ["even", "odd"];
   let n = 14;
@@ -60,24 +44,4 @@ if (month >= 1 && month <= 12) {
   } else {
     console.log("Given number is odd");
   }
-}
-
-// * write a program to print natural numbers upto n;
-
-{
-  let n = 10;
-  for (let i = 1; i <= n; i++) {
-    if (i % 2 == 0) {
-      console.log(i);
-    }
-  }
-}
-// * sum of natural numbers
-{
-  let n = 20;
-  let sum = 0;
-  for (let i = 1; i <= n; i++) {
-    sum += i;
-  }
-  console.log("The sum of natural number is ", sum);
 }
