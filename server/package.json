@@ -1,0 +1,17 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "this is going to store the dummy data",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch ./data.json"
+  },
+  "keywords": [
+    "server"
+  ],
+  "author": "Pritam",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "id": "e8b5",
+      "firstName": "Pritam",
+      "lastName": "Magdum",
+      "email": "pritammagdum24@gmail.com",
+      "phoneNumber": "08698694008",
+      "age": "23",
+      "password": "Pritam@123",
+      "confirmPassword": "Pritam@123",
+      "gender": "Male",
+      "skills": [
+        "javascript",
+        "mongoDB"
+      ],
+      "birthDate": "2024-11-12"
+    },
+    {
+      "id": "4bd5",
+      "firstName": "Pritam",
+      "lastName": "Magdum",
+      "email": "pritammagdum24@gmail.com",
+      "phoneNumber": "8698694008",
+      "age": "23",
+      "password": "Pritam@1234",
+      "confirmPassword": "Pritam@1234",
+      "gender": "Male",
+      "skills": [
+        "javascript",
+        "mongoDB"
+      ],
+      "birthDate": "2024-11-12"
+    }
+  ]
+}

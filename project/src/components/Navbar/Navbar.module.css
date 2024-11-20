@@ -1,0 +1,47 @@
+.head h1 {
+  /* border: 2px solid black; */
+  /* width: 10%; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: self-start;
+  position: relative;
+  right: 300px;
+  font-size: 15px;
+}
+
+.Navitems ul {
+  /* border: 2px solid yellow; */
+  display: flex;
+  justify-content: flex-end;
+  align-items: self-end;
+  gap: 80px;
+  position: relative;
+  left: 300px;
+  /* flex-direction: column; */
+}
+
+ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+ul li {
+  list-style: none;
+}
+
+h1 img {
+  width: 200px;
+  height: 70px;
+}
+
+.nav_bar {
+  width: 150px;
+  height: 35px;
+  border-radius: 20px;
+  background-color: orangered;
+  border: none;
+}
+
+.Navitems ul li .nav_bar a {
+  color: whitesmoke;
+}
