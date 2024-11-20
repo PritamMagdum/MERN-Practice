@@ -14,7 +14,7 @@ const Navbar = () => {
         </div>
 
         <div className="">
-          <ul className="flex gap-16 text-base font-semibold">
+          <ul className="flex text-[#133864] gap-16 text-base font-bold">
             <li className="">
               <Link to="/">Home</Link>
             </li>

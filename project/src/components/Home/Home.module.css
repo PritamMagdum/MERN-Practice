@@ -5,6 +5,20 @@
   @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 }
 
+.cont1 {
+  width: 650px;
+  height: 350px;
+  /* border: 2px solid black; */
+  margin-left: 65px;
+  margin-top: 60px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 25px;
+}
+
 .h1 {
   /* color: rgb(35, 35, 76); */
   font-weight: 700;
@@ -79,8 +93,8 @@ p {
 }
 
 /* .slick-slider {
-    position: relative;
-    bottom: 300px;
+  position: relative;
+  bottom: 300px;
 } */
 .Third_container {
   height: 950px;
@@ -247,10 +261,10 @@ p {
 }
 
 /* .third_row{
-    border: 2px solid red;
-    height: 386px;
-    width: 862px;
-    align-items: center;
+  border: 2px solid red;
+  height: 386px;
+  width: 862px;
+  align-items: center;
 } */
 
 .third_row img {
@@ -449,41 +463,41 @@ p {
 }
 
 /* .fifth_cont{
-    height: 800px;
-    background-color: #edf1f6;
+  height: 800px;
+  background-color: #edf1f6;
 }
 
 .fifth_cont p{
-    padding: 60px 250px;
-    text-align: center;
-    font-weight: 700;
-    font-size: 40px;
-   font-family:poppins,sans-serif;
-   color: #162d52;
-   margin-top: 45px;
+  padding: 60px 250px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+ font-family:poppins,sans-serif;
+ color: #162d52;
+ margin-top: 45px;
 }
 
 .cards{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
 }
 
 .card1{
-    height: 570px;
-    width: 360px;
-    border: 2px solid black;
+  height: 570px;
+  width: 360px;
+  border: 2px solid black;
 }
 
 .card1 img{
-    height: 261px;
-    width: 358px;
+  height: 261px;
+  width: 358px;
 }
 .sub1{
-    height: 261px;
-    width: 360px;
-    border: 2px solid red;
+  height: 261px;
+  width: 360px;
+  border: 2px solid red;
 } */
 
 .container5 {
@@ -629,9 +643,9 @@ footer .footer_container {
   justify-content: space-between;
   align-items: center;
   /* background-image: url("footer2.png");
-    background-repeat: no-repeat;
-    
-    background-position: 10%,90%;  */
+  background-repeat: no-repeat;
+  
+  background-position: 10%,90%;  */
 }
 
 .footer_container .footer_heading {

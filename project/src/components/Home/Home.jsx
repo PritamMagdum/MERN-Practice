@@ -39,136 +39,205 @@ const Home = () => {
   };
   return (
     <div>
-      <div className="flex border border-red-500">
-        <div className="w-[650px] h-[350px] flex justify-center items-start flex-col ml-[65px] mt-[60px] p-2.5">
-          <h1 className="text-[#162d52] font-bold text-lg">
-            With Test Yantra Global
-          </h1>
-          <TypeAnimation
-            className="text-primary font-bold"
-            sequence={[
-              // Same substring at the start will only be typed out once, initially
-              "Unify Web, Mobile, API, and DB Testing..",
-              1000, // wait 1s before replacing "Mice" with "Hamsters"
-              "Realize Cost-Effective Testing..",
-              1000,
-              "Build Custom Applications..",
-              1000,
-              "Drive AI Automation Testing..",
-              1000,
-            ]}
-            wrapper="span"
-            speed={50}
-            style={{ fontSize: "2em", display: "inline-block" }}
-            repeat={Infinity}
-          />
+      <div className={style.cont1}>
+        <h1 className={style.h1}>With Test Yantra Global</h1>
+        <TypeAnimation
+          className={style.text}
+          sequence={[
+            // Same substring at the start will only be typed out once, initially
+            "Unify Web, Mobile, API, and DB Testing..",
+            1000, // wait 1s before replacing "Mice" with "Hamsters"
+            "Realize Cost-Effective Testing..",
+            1000,
+            "Build Custom Applications..",
+            1000,
+            "Drive AI Automation Testing..",
+            1000,
+          ]}
+          wrapper="span"
+          speed={50}
+          style={{ fontSize: "2em", display: "inline-block" }}
+          repeat={Infinity}
+        />
 
-          <p className=" mb-4">
-            Test Yantra Global's 5,000+ employees provide a range of innovative
-            technology <br />
-            solutions to digitally transform your organization.
-          </p>
-          <p className="mb-4">
-            From IT consulting, application design and development, to automated
-            AI enabled test management platform that unifies web, android, iOS,
-            API, and DB testing, we have the expertise, technology, experience,
-            and tools to help transform your business.
-          </p>
+        <p>
+          Test Yantra Global's 5,000+ employees provide a range of innovative
+          technology <br />
+          solutions to digitally transform your organization.
+        </p>
+        <p>
+          From IT consulting, application design and development, to automated
+          AI enabled test management platform that unifies web, android, iOS,
+          API, and DB testing, we have the expertise, technology, experience,
+          and tools to help transform your business.
+        </p>
 
-          <Link className="bg-[#133864] text-white px-5 py-2.5 rounded-md font-medium my-5">
-            Get Started Free -
-          </Link>
-        </div>
-        <div className="w-1/2">
-          <div className="w-10/12 border border-red-700 ">
-            <Slider {...settings}>
-              <div className={style.conta2}>
-                <img src={ban1} alt="" />
-                <h1>
-                  Turn your Manual Testers
-                  <br />
-                  into Automation Testers
-                </h1>
-                <ul>
-                  <li>Easy to use</li>
-                  <li>No Code Natural Language Processing</li>
-                  <li>Begin automating in hours</li>
-                </ul>
-              </div>
-              <div className={style.conta2}>
-                <h3>
-                  <img src={ban2} alt="" />
-                </h3>
-              </div>
-              <div className={style.conta2}>
-                <h3>
-                  <img src={ban3} alt="" />
-                </h3>
-              </div>
-            </Slider>
-          </div>
-        </div>
+        <Link className="px-4 py-2.5 bg-[#133864] text-white text-lg font-normal rounded-md">
+          Get Started Free -
+        </Link>
       </div>
-
-      <div className={style.Third_container}>
-        <div className={style.first_row}>
-          <h1>
-            Leverage Test Yantra Global's range
-            <br />
-            of Professional Services
-          </h1>
-        </div>
-        <div className={style.second_row}>
-          <div className={style.first_card}>
-            <img src={cardOne} alt="" />
+      <div className={style.cont2}>
+        <Slider {...settings}>
+          <div className={style.conta2}>
+            <img src={ban1} alt="" />
             <h1>
-              Software Testing
+              Turn your Manual Testers
               <br />
-              Services (TaaS)
+              into Automation Testers
             </h1>
-            <p>
-              we offer cost effective,reliable and scalable software testing
-              services.
-            </p>
+            <ul>
+              <li>Easy to use</li>
+              <li>No Code Natural Language Processing</li>
+              <li>Begin automating in hours</li>
+            </ul>
           </div>
-          <div className={style.second_card}>
-            <img src={cardTwo} alt="" />
-            <h1>IT Software Skills Enhancement</h1>
-            <p>
-              Our customized and curated training models help organizations
-              elevate their IT quotient.
-            </p>
+          <div className={style.conta2}>
+            <h3>
+              <img src={ban2} alt="" />
+            </h3>
           </div>
-          <div className={style.third_card}>
-            <img src={cardThree} alt="" />
-            <h1>Deployment & support Services</h1>
-            <p>
-              Our team of exports help you craft a winning IT strategy for your
-              organization.
-            </p>
+          <div className={style.conta2}>
+            <h3>
+              <img src={ban3} alt="" />
+            </h3>
           </div>
-          <div className={style.fourth_card}>
-            <img src={cardFour} alt="" />
-            <h1>Software Design & Development</h1>
-            <p>
-              We deliver IT solutions in a wide variety of verticals and
-              businesses to the next level.
-            </p>
-          </div>
-          <div className={style.fifth_card}>
-            <img src={cardFive} alt="" />
-            <h1>Crowd Testing</h1>
-            <p>
-              We offer comprehensive crowd-testing services, leveraging a global
-              network of skilled testers.
-            </p>
-          </div>
-        </div>
-
-        <div className={style.third_row}>
-          <img src={thumbnail} alt="" />
-        </div>
+        </Slider>
       </div>
+
+      <section className="border-red-500 border bg-[#f2f6f9]">
+        <div>
+          <div className="text-center py-16">
+            <h1 className="text-[#162d52] text-4xl font-bold">
+              Leverage Test Yantra Global's range
+              <br />
+              of Professional Services
+            </h1>
+          </div>
+          <div className="flex justify-center gap-2 flex-wrap">
+            <div className="w-60 px-5 py-5 bg-[#fff] mb-8 rounded-sm relative overflow-hidden hover:-translate-y-2 transition-transform duration-500 group">
+              <Link to="/">
+                <div className="service-icon">
+                  <img
+                    alt="Software Testing Service"
+                    loading="lazy"
+                    width="65"
+                    height="65"
+                    decoding="async"
+                    data-nimg="1"
+                    style={{ color: "transparent" }}
+                    src="https://www.testyantraglobal.com/_next/image/?url=%2Fimages%2FTaas.png&w=96&q=75"
+                  />
+                </div>
+                <h3 className="text-xl font-bold text-second">
+                  Software Testing Services (TaaS)
+                </h3>
+                <p className="text-sm">
+                  We offer cost-effective, reliable, and scalable software
+                  testing services.
+                </p>
+              </Link>
+              <div className="absolute bottom-0 left-0 h-1 bg-[#f27f3d] w-2 transition-width duration-300 group-hover:w-full"></div>
+            </div>
+
+            <div className="service-container">
+              <Link to="/">
+                <div className="service-icon">
+                  <img
+                    alt="Software Testing Service"
+                    loading="lazy"
+                    width="65"
+                    height="65"
+                    decoding="async"
+                    data-nimg="1"
+                    style={{ color: "transparent" }}
+                    src="https://www.testyantraglobal.com/_next/image/?url=%2Fimages%2FIT.png&w=96&q=75"
+                  ></img>
+                </div>
+                <h3>IT Software Skills Enhancement</h3>
+                <p>
+                  Our customized and curated training models help organizations
+                  elevate their IT quotient.
+                </p>
+              </Link>
+              <div className="progress"></div>
+            </div>
+
+            <div className="service-container">
+              <Link to="/">
+                <div className="service-icon">
+                  <img
+                    alt="Software Testing Service"
+                    loading="lazy"
+                    width="65"
+                    height="65"
+                    decoding="async"
+                    data-nimg="1"
+                    style={{ color: "transparent" }}
+                    src="https://www.testyantraglobal.com/_next/image/?url=%2Fimages%2FDSS.png&w=96&q=75"
+                  ></img>
+                </div>
+                <h3>Deployment & Support Services</h3>
+                <p>
+                  Our team of experts help you craft a winning IT strategy for
+                  your organization.
+                </p>
+              </Link>
+              <div className="progress"></div>
+            </div>
+
+            <div className="service-container">
+              <Link to="/">
+                <div className="service-icon">
+                  <img
+                    alt="Software Testing Service"
+                    loading="lazy"
+                    width="65"
+                    height="65"
+                    decoding="async"
+                    data-nimg="1"
+                    style={{ color: "transparent" }}
+                    src="https://www.testyantraglobal.com/_next/image/?url=%2Fimages%2FSDD.png&w=96&q=75"
+                  ></img>
+                </div>
+                <h3>Software Design & Development</h3>
+                <p>
+                  We deliver IT solutions in a wide variety of verticals and
+                  elevate businesses to the next level.
+                </p>
+              </Link>
+              <div className="progress"></div>
+            </div>
+
+            <div className="service-container">
+              <Link to="/">
+                <div className="service-icon">
+                  <img
+                    alt="Software Testing Service"
+                    loading="lazy"
+                    width="65"
+                    height="65"
+                    decoding="async"
+                    data-nimg="1"
+                    style={{ color: "transparent" }}
+                    src="https://www.testyantraglobal.com/_next/image/?url=%2Fimages%2Ficons%2FcrowdTesting.png&w=96&q=75"
+                  ></img>
+                </div>
+                <h3>Crowd Testing</h3>
+                <p>
+                  We offer comprehensive crowd-testing services, leveraging a
+                  global network of skilled testers.
+                </p>
+              </Link>
+              <div className="progress"></div>
+            </div>
+          </div>
+
+          {/* Video section */}
+          <div className="video-section">
+            <div className="video-container"></div>
+          </div>
+        </div>
+      </section>
 
       <div className={style.fourth_cont}>
         <div className={style.row1}>The numbers speak for themselves</div>
