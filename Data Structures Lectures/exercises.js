@@ -86,3 +86,12 @@
     console.log("You are tired and drunk so we are not allowed to drive");
   }
 }
+
+// & ------> 21/11/2024
+// ^ 1) find the biggest digit in the given number
+// ^ 2) find the smallest digit in the given number
+// ^ 3) find the product of the digits
+// ^ 4) find the difference of maximum digit and minimum digit
+// ^ 5) find the extream digits sum ( 1st digit and last digit)
+// ^ 6) find the internal digits sum (exclude 1st and last digit)
+// ^ 7) write a program to revers the number
