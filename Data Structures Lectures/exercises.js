@@ -97,3 +97,18 @@
 // O L L E H
 
 //
+
+// & -------> 03/12/2024
+// ^ 1) Concat two strings alternatively
+// str1 = "abc"
+// str2 = "xyz"
+// ans=> axbycz
+
+// ^ 2) write a function to check weather the s1 and s2 strings are anagram or not
+// ^ 3) write a program for panagram program - the quick brown fox jumps over the lazy dog
+
+// & --------> 04/12/2024
+// ^ 1) non common characters
+// ^ 2) print unique chars in two strings ex - s1 = abc, s2 = acz  ==> abcz
+// ^ 3) write a function to return the palindromic substrings it should not print it should return array of substrings
+// ^ 4) print longest substring which is palindrome
