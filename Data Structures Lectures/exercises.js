@@ -112,3 +112,15 @@
 // ^ 2) print unique chars in two strings ex - s1 = abc, s2 = acz  ==> abcz
 // ^ 3) write a function to return the palindromic substrings it should not print it should return array of substrings
 // ^ 4) print longest substring which is palindrome
+
+// & --------> 05/12/2024
+// ^ todays assignment is to dry run the questions those today solved
+// ^ understand what is vally program
+// ^ 3) see notebook for this problem
+// ^ 4) convert number to binary
+
+// & ---------> 06/12/2024
+// ^ 1) write a function to return the sum of the squares of the elements
+// ^ 2) write a function to return the sum of the alternative elements start with 0 index
+// ^ 3) find the first maximum elements of the array
+// ^ 4) find the first minimum elements of the array
